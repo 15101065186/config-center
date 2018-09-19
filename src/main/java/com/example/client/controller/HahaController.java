@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class HahaController {
 
-    @Value("${profile}")
+    @Value("${profiles}")
     private String profile;
 
     @GetMapping("/get")
